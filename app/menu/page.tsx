@@ -28,7 +28,7 @@ interface Categoria {
 export default function MenuPage() {
   const categorias: Categoria[] = menuData.categorias;
 
-  const whatsappNumber = '1234567890'; // Reemplazar con el número real
+  const whatsappNumber = '573053572263'; // Reemplazar con el número real
   const whatsappMessage = encodeURIComponent('¡Hola! Me gustaría hacer una reserva en Café Aroma.');
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 

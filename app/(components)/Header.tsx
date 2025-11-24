@@ -23,6 +23,18 @@ export default function Header() {
             >
               Menú
             </Link>
+            <Link 
+              href="/galeria" 
+              className="text-gray-700 hover:text-coffee-700 transition-colors"
+            >
+              Galería
+            </Link>
+            <Link 
+              href="/contacto" 
+              className="text-gray-700 hover:text-coffee-700 transition-colors"
+            >
+              Contacto
+            </Link>
           </nav>
         </div>
       </div>

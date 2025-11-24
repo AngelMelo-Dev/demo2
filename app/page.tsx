@@ -15,7 +15,7 @@ export default function Home() {
               Disfruta de la experiencia única del café artesanal en un ambiente acogedor
             </p>
             <Link
-              href="#"
+              href="/menu"
               className="inline-block bg-white text-coffee-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-coffee-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Ver Menú

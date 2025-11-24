@@ -1,6 +1,100 @@
-{}
-
-
-
-
-
+{
+  "categorias": [
+    {
+      "id": "cafes",
+      "nombre": "Cafés",
+      "items": [
+        {
+          "id": "espresso",
+          "nombre": "Espresso",
+          "precio": 2.50,
+          "descripcion": "Café concentrado y aromático, preparado con granos seleccionados y tostados a la perfección."
+        },
+        {
+          "id": "cappuccino",
+          "nombre": "Cappuccino",
+          "precio": 3.50,
+          "descripcion": "Espresso con leche vaporizada y una capa suave de espuma, decorado con arte latte."
+        },
+        {
+          "id": "latte",
+          "nombre": "Latte",
+          "precio": 3.80,
+          "descripcion": "Espresso suave con leche vaporizada cremosa, perfecto para disfrutar en cualquier momento del día."
+        },
+        {
+          "id": "americano",
+          "nombre": "Americano",
+          "precio": 2.80,
+          "descripcion": "Espresso diluido con agua caliente, manteniendo la intensidad del café con un sabor más suave."
+        },
+        {
+          "id": "mocha",
+          "nombre": "Mocha",
+          "precio": 4.20,
+          "descripcion": "Deliciosa combinación de espresso, chocolate y leche vaporizada, coronado con crema batida."
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "nombre": "Postres",
+      "items": [
+        {
+          "id": "tarta-chocolate",
+          "nombre": "Tarta de Chocolate",
+          "precio": 5.50,
+          "descripcion": "Tarta casera con chocolate belga, textura suave y cremosa, decorada con frutos rojos frescos."
+        },
+        {
+          "id": "cheesecake",
+          "nombre": "Cheesecake de Fresa",
+          "precio": 5.80,
+          "descripcion": "Postre cremoso con base de galleta, cubierto con mermelada de fresa casera y frutas frescas."
+        },
+        {
+          "id": "brownie",
+          "nombre": "Brownie con Helado",
+          "precio": 4.90,
+          "descripcion": "Brownie caliente y esponjoso servido con una bola de helado de vainilla y salsa de chocolate."
+        },
+        {
+          "id": "tiramisu",
+          "nombre": "Tiramisú",
+          "precio": 6.00,
+          "descripcion": "Postre italiano tradicional con café, mascarpone y cacao, elaborado con receta auténtica."
+        }
+      ]
+    },
+    {
+      "id": "bebidas-frias",
+      "nombre": "Bebidas Frías",
+      "items": [
+        {
+          "id": "frappe",
+          "nombre": "Frappé de Café",
+          "precio": 4.50,
+          "descripcion": "Bebida refrescante con café, hielo triturado, leche y un toque de vainilla, coronada con crema batida."
+        },
+        {
+          "id": "iced-latte",
+          "nombre": "Iced Latte",
+          "precio": 4.00,
+          "descripcion": "Espresso frío con leche y hielo, perfecto para los días calurosos sin perder el sabor del café."
+        },
+        {
+          "id": "smoothie-frutas",
+          "nombre": "Smoothie de Frutas",
+          "precio": 4.80,
+          "descripcion": "Mezcla refrescante de frutas frescas, yogur natural y miel, disponible en varios sabores."
+        },
+        {
+          "id": "limonada-menta",
+          "nombre": "Limonada de Menta",
+          "precio": 3.50,
+          "descripcion": "Limonada natural con hojas de menta fresca, endulzada con miel y servida con hielo."
+        }
+      ]
+    }
+  ]
+}

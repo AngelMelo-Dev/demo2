@@ -17,6 +17,12 @@ export default function Header() {
             >
               Inicio
             </Link>
+            <Link 
+              href="/menu" 
+              className="text-gray-700 hover:text-coffee-700 transition-colors"
+            >
+              Menú
+            </Link>
           </nav>
         </div>
       </div>

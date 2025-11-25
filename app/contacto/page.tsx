@@ -299,7 +299,7 @@ export default function ContactoPage() {
             {/* Botón WhatsApp */}
             <div className="mt-8">
               <a
-                href="https://wa.me/573053572263?text=¡Hola! Me gustaría contactar con Café Aroma."
+                href="https://wa.me/573054226304?text=¡Hola! Me gustaría gustaria contactar con ustedes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"

@@ -1,13 +1,38 @@
 import Link from 'next/link';
 
 export default function Footer() {
-  const whatsappNumber = '573053572263';
+  const whatsappNumber = '573054226304';
   const whatsappMessage = encodeURIComponent('¡Hola! Me gustaría contactar con Café Aroma.');
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  const ctaWhatsappUrl = 'https://wa.me/573054226304';
 
   return (
     <footer className="bg-coffee-900 text-white mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* CTA Profesional */}
+        <div className="mb-12">
+          <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 sm:p-8 flex flex-col md:flex-row gap-6 md:items-center">
+            <div className="flex-1 text-center md:text-left">
+              <p className="text-xs uppercase tracking-[0.2em] text-coffee-200 mb-2">
+                ¿Quieres una página web profesional como esta?
+              </p>
+              <p className="text-base text-white/90">
+                Desarrollo sitios modernos, rápidos y optimizados para atraer clientes. Escríbeme para cotizar tu página.
+              </p>
+            </div>
+            <div className="text-center">
+              <a
+                href={ctaWhatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-white hover:bg-white/10"
+              >
+                Hablar por WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Información del Café */}
           <div>

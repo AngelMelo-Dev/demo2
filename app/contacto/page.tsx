@@ -46,11 +46,8 @@ export default function ContactoPage() {
     setSubmitStatus('idle');
 
     try {
-      // Reemplazar 'YOUR_FORMSPREE_ENDPOINT' con tu endpoint real de Formspree
-      // Ejemplo: 'https://formspree.io/f/YOUR_FORM_ID'
-      const formspreeEndpoint = 'YOUR_FORMSPREE_ENDPOINT';
-
-      const response = await fetch(formspreeEndpoint, {
+      // Enviar formulario a la API route de Next.js
+      const response = await fetch('/api/contacto', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -243,7 +240,7 @@ export default function ContactoPage() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900 mb-1">Teléfono</h3>
-                  <p className="text-gray-600">+57 300 123 4567</p>
+                  <p className="text-gray-600">+57 305 4226304</p>
                 </div>
               </div>
 
@@ -291,7 +288,7 @@ export default function ContactoPage() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                  <p className="text-gray-600">contacto@cafearoma.com</p>
+                  <p className="text-gray-600">angelmelo.dev@gmail.com</p>
                 </div>
               </div>
             </div>
